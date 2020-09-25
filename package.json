@@ -1,0 +1,49 @@
+{
+  "name": "@pmndrs/branding",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "index.js",
+  "sideEffects": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmndrs/branding.git"
+  },
+  "author": "Paul Henschel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmndrs/branding/issues"
+  },
+  "homepage": "https://github.com/pmndrs/branding#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "jsxBracketSameLine": true,
+    "tabWidth": 2,
+    "printWidth": 80
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.13",
+    "react-dom": ">=16.13"
+  }
+}
