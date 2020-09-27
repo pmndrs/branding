@@ -1,13 +1,9 @@
 import React from 'react'
 
-export function Badge() {
+export function Badge({ url = 'https://twitter.com/pmndrs' }) {
   return (
-    <a href="https://twitter.com/pmndrs">
-      <svg
-        width="150"
-        height="32"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
+    <a href={url}>
+      <svg width="150" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M144.34 0H5.66A5.66 5.66 0 000 5.66v19.812a5.66 5.66 0 005.66 5.66h138.68a5.66 5.66 0 005.66-5.66V5.66A5.66 5.66 0 00144.34 0z"
           fill="#F2F2F2"
