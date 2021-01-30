@@ -8,7 +8,7 @@ type Props = {
   link2: React.ReactNode
 }
 
-export function Overlay({ date, year, link1, link2 }: Props) {
+export function Footer({ date, year, link1, link2 }: Props) {
   return (
     <div className="pmndrs-menu">
       <div>
