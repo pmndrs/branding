@@ -31,7 +31,7 @@ export function Footer({ date, year, link1, link2 }: Props) {
       </div>
       <div style={{ width: '100%' }} />
       <div>
-        {link1}
+        <b>{link1}</b>
         {link2}
       </div>
     </div>
