@@ -18,7 +18,7 @@ export function Footer({ date, year, link1, link2 }: Props) {
         <span>
           <b>poimandres</b>
         </span>
-        <a href="https://pmnd.rs">pmndrs.rs</a>
+        <a href="https://pmnd.rs">pmnd.rs</a>
         <a href="https://twitter.com/pmndrs">@pmndrs</a>
       </div>
       <div>
